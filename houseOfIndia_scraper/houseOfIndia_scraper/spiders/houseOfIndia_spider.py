@@ -7,7 +7,7 @@ class HouseofindiaSpiderSpider(scrapy.Spider):
         'https://www.houseofindya.com/zyra/necklace-sets/cat'
         ]
                                             
-    custom_settings = {'FEED_FORMAT': 'json','FEED_URI': 'trial.json'}    # Uncomment to save output 
+    #custom_settings = {'FEED_FORMAT': 'json','FEED_URI': 'trial.json'}    # Uncomment to save output 
                                                                             # File format supported json, csv, xml
 
     def parse(self, response):
